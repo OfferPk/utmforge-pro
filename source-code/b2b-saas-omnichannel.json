@@ -1,0 +1,39 @@
+{
+  "campaignName": "Q4 AI Infrastructure Enterprise Launch",
+  "brandName": "CloudScale AI",
+  "defaultBaseUrl": "https://cloudscale.ai/enterprise",
+  "links": [
+    {
+      "channel": "Google Search CPC",
+      "baseUrl": "https://cloudscale.ai/enterprise",
+      "params": {
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "utm_campaign": "q4-enterprise-ai-launch",
+        "utm_term": "cloud-inference-cluster",
+        "utm_content": "rsa-headline-v1"
+      }
+    },
+    {
+      "channel": "LinkedIn Executive Sponsored",
+      "baseUrl": "https://cloudscale.ai/whitepaper/gpu-efficiency",
+      "params": {
+        "utm_source": "linkedin",
+        "utm_medium": "paid-social",
+        "utm_campaign": "q4-enterprise-ai-launch",
+        "utm_term": "cto-vp-engineering",
+        "utm_content": "sponsored-pdf-teaser"
+      }
+    },
+    {
+      "channel": "Klaviyo VIP Customer Newsletter",
+      "baseUrl": "https://cloudscale.ai/pricing",
+      "params": {
+        "utm_source": "newsletter",
+        "utm_medium": "email",
+        "utm_campaign": "q4-enterprise-ai-launch",
+        "utm_content": "hero-primary-cta"
+      }
+    }
+  ]
+}

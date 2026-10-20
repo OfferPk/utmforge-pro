@@ -1,0 +1,35 @@
+{
+  "campaignName": "GITEX Global 2026 Dubai Fintech Showcase",
+  "brandName": "Oasis Pay UAE",
+  "defaultBaseUrl": "https://oasispay.ae/gitex-demo",
+  "links": [
+    {
+      "channel": "Booth A12 Standing Banner QR",
+      "baseUrl": "https://oasispay.ae/gitex-demo",
+      "params": {
+        "utm_source": "gitex-global-dubai",
+        "utm_medium": "offline-qr",
+        "utm_campaign": "gitex-2026-fintech-expo",
+        "utm_term": "hall-4-fintech-pavilion",
+        "utm_content": "standing-retractable-banner-a"
+      },
+      "customParams": {
+        "booth": "H4-A12",
+        "city": "dubai"
+      }
+    },
+    {
+      "channel": "Executive VIP Invitation Lanyard QR",
+      "baseUrl": "https://oasispay.ae/vip-reception",
+      "params": {
+        "utm_source": "gitex-global-dubai",
+        "utm_medium": "vip-lanyard-qr",
+        "utm_campaign": "gitex-2026-fintech-expo",
+        "utm_content": "acrylic-badge-reverse"
+      },
+      "customParams": {
+        "tier": "c-level"
+      }
+    }
+  ]
+}

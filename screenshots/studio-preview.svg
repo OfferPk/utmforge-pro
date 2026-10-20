@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <style>
+      .app-bg { fill: #070b14; }
+      .hdr-bg { fill: #0f172a; stroke: #243452; stroke-width: 1; }
+      .sidebar-bg { fill: #0f172a; stroke: #243452; stroke-width: 1; }
+      .card-bg { fill: #182238; stroke: #243452; stroke-width: 1; rx: 8; }
+      .input-bg { fill: #0b1120; stroke: #243452; stroke-width: 1; rx: 4; }
+      .brand-title { font-family: sans-serif; font-size: 17px; font-weight: 800; fill: #f8fafc; }
+      .sec-hdr { font-family: sans-serif; font-size: 11px; font-weight: 700; fill: #06b6d4; text-transform: uppercase; letter-spacing: 0.5px; }
+      .lbl-txt { font-family: sans-serif; font-size: 11px; font-weight: 600; fill: #94a3b8; }
+      .val-txt { font-family: sans-serif; font-size: 12px; fill: #f8fafc; }
+      .btn-cyan { fill: #06b6d4; rx: 6; }
+      .btn-gray { fill: #182238; stroke: #243452; stroke-width: 1; rx: 6; }
+      .btn-txt { font-family: sans-serif; font-size: 12px; font-weight: 700; fill: #070b14; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect class="app-bg" width="1200" height="750" />
+
+  <!-- App Header -->
+  <rect class="hdr-bg" x="0" y="0" width="1200" height="60" />
+  <rect fill="#06b6d4" x="20" y="14" width="34" height="34" rx="8" />
+  <text font-family="sans-serif" font-size="18" font-weight="900" fill="#070b14" x="29" y="37">🔗</text>
+  <text class="brand-title" x="68" y="36">UTMForge Pro</text>
+  <rect fill="rgba(6, 182, 212, 0.15)" x="200" y="20" width="55" height="20" rx="4" />
+  <text font-family="sans-serif" font-size="11" font-weight="700" fill="#06b6d4" x="212" y="34">v1.0.0</text>
+
+  <!-- Header Buttons -->
+  <g transform="translate(680, 14)">
+    <rect class="input-bg" x="0" y="0" width="200" height="32" />
+    <text class="val-txt" x="12" y="21">B2B SaaS Multi-Channel</text>
+    <rect class="btn-gray" x="210" y="0" width="90" height="32" />
+    <text font-family="sans-serif" font-size="12" font-weight="700" fill="#fff" x="255" y="20" text-anchor="middle">SVG QR</text>
+    <rect class="btn-cyan" x="310" y="0" width="180" height="32" />
+    <text class="btn-txt" x="400" y="20">Export Tagged CSV</text>
+  </g>
+
+  <!-- Left Sidebar Controls -->
+  <rect class="sidebar-bg" x="0" y="60" width="480" height="690" />
+  <g transform="translate(20, 80)">
+    <!-- Destination URL Box -->
+    <rect class="card-bg" x="0" y="0" width="440" height="85" />
+    <text class="sec-hdr" x="15" y="24">Target Destination</text>
+    <text class="lbl-txt" x="15" y="46">Destination Page URL</text>
+    <rect class="input-bg" x="15" y="52" width="410" height="26" />
+    <text class="val-txt" x="25" y="69">https://cloudscale.ai/enterprise</text>
+
+    <!-- Standard UTM Fields -->
+    <rect class="card-bg" x="0" y="100" width="440" height="260" />
+    <text class="sec-hdr" x="15" y="124">Standard UTM Attribution</text>
+
+    <text class="lbl-txt" x="15" y="148">utm_source *</text>
+    <rect class="input-bg" x="15" y="154" width="200" height="26" />
+    <text class="val-txt" x="25" y="171">google</text>
+
+    <text class="lbl-txt" x="225" y="148">utm_medium *</text>
+    <rect class="input-bg" x="225" y="154" width="200" height="26" />
+    <text class="val-txt" x="235" y="171">cpc</text>
+
+    <text class="lbl-txt" x="15" y="196">utm_campaign *</text>
+    <rect class="input-bg" x="15" y="202" width="410" height="26" />
+    <text class="val-txt" x="25" y="219">q4-enterprise-ai-launch</text>
+
+    <text class="lbl-txt" x="15" y="244">utm_term (Keyword / Ad Group)</text>
+    <rect class="input-bg" x="15" y="250" width="200" height="26" />
+    <text class="val-txt" x="25" y="267">cloud-inference</text>
+
+    <text class="lbl-txt" x="225" y="244">utm_content (Creative Variant)</text>
+    <rect class="input-bg" x="225" y="250" width="200" height="26" />
+    <text class="val-txt" x="235" y="267">rsa-headline-v1</text>
+
+    <text class="sec-hdr" x="15" y="305">Quick Channel Presets</text>
+    <g transform="translate(15, 315)">
+      <rect fill="rgba(6,182,212,0.15)" stroke="#06b6d4" stroke-width="1" width="75" height="22" rx="4" />
+      <text font-family="sans-serif" font-size="10" font-weight="700" fill="#06b6d4" x="37" y="15" text-anchor="middle">Google CPC</text>
+
+      <rect fill="#0b1120" stroke="#243452" stroke-width="1" x="85" width="75" height="22" rx="4" />
+      <text font-family="sans-serif" font-size="10" fill="#94a3b8" x="122" y="15" text-anchor="middle">Meta Ads</text>
+
+      <rect fill="#0b1120" stroke="#243452" stroke-width="1" x="170" width="75" height="22" rx="4" />
+      <text font-family="sans-serif" font-size="10" fill="#94a3b8" x="207" y="15" text-anchor="middle">LinkedIn</text>
+
+      <rect fill="#0b1120" stroke="#243452" stroke-width="1" x="255" width="75" height="22" rx="4" />
+      <text font-family="sans-serif" font-size="10" fill="#94a3b8" x="292" y="15" text-anchor="middle">Newsletter</text>
+    </g>
+
+    <!-- Custom Parameters -->
+    <rect class="card-bg" x="0" y="375" width="440" height="150" />
+    <text class="sec-hdr" x="15" y="399">Custom Parameters</text>
+    <text class="lbl-txt" x="15" y="420">Parameter Key &amp; Value (ref / discount)</text>
+    <rect class="input-bg" x="15" y="428" width="190" height="26" />
+    <text class="val-txt" x="25" y="445">discount</text>
+    <rect class="input-bg" x="215" y="428" width="190" height="26" />
+    <text class="val-txt" x="225" y="445">enterprise20</text>
+  </g>
+
+  <!-- Right Live Preview Workspace -->
+  <g transform="translate(520, 80)">
+    <!-- Production Campaign Link Box -->
+    <rect fill="#0f172a" stroke="#243452" stroke-width="1" width="650" height="240" rx="8" />
+    <text font-family="sans-serif" font-size="14" font-weight="800" fill="#f8fafc" x="25" y="35">Production Campaign Link</text>
+    <rect fill="#06b6d4" x="510" y="18" width="115" height="28" rx="6" />
+    <text class="btn-txt" x="567" y="36">Copy Full URL</text>
+
+    <!-- Validation notice -->
+    <rect fill="rgba(16,185,129,0.12)" stroke="#059669" stroke-width="1" x="25" y="55" width="600" height="30" rx="4" />
+    <text font-family="sans-serif" font-size="10.5" font-weight="700" fill="#10b981" x="40" y="74">✓ GA4 STANDARDS COMPLIANT: Normalized and verified.</text>
+
+    <!-- URL Box -->
+    <rect fill="#0b1120" stroke="#243452" stroke-width="1" x="25" y="95" width="600" height="60" rx="6" />
+    <text font-family="monospace" font-size="11" fill="#38bdf8" x="40" y="122">https://cloudscale.ai/enterprise?utm_source=google&amp;utm_medium=cpc</text>
+    <text font-family="monospace" font-size="11" fill="#38bdf8" x="40" y="142">&amp;utm_campaign=q4-enterprise-ai-launch&amp;discount=enterprise20</text>
+
+    <text font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8" x="25" y="180">Parameters Active: 4 Core UTM + 1 Custom Query</text>
+
+    <!-- QR Code Studio Card -->
+    <g transform="translate(0, 260)">
+      <rect fill="#0f172a" stroke="#243452" stroke-width="1" width="650" height="220" rx="8" />
+      <text font-family="sans-serif" font-size="14" font-weight="800" fill="#f8fafc" x="25" y="35">Print &amp; Offline Vector QR Code</text>
+
+      <!-- Mini QR representation -->
+      <rect fill="#ffffff" x="25" y="55" width="130" height="130" rx="6" />
+      <rect fill="#0a0f1d" x="35" y="65" width="30" height="30" rx="2" />
+      <rect fill="#0a0f1d" x="115" y="65" width="30" height="30" rx="2" />
+      <rect fill="#0a0f1d" x="35" y="145" width="30" height="30" rx="2" />
+      <rect fill="#ffffff" stroke="#0a0f1d" stroke-width="1.5" x="60" y="110" width="60" height="18" rx="3" />
+      <text font-family="sans-serif" font-size="8" font-weight="900" fill="#0a0f1d" x="90" y="122" text-anchor="middle">SCAN ME</text>
+
+      <g transform="translate(180, 70)">
+        <text font-family="sans-serif" font-size="13" font-weight="700" fill="#f8fafc">Ultra-High Resolution Vector Output</text>
+        <text font-family="sans-serif" font-size="11" fill="#94a3b8" y="22">Scales infinitely without pixelation. Directly importable into Illustrator.</text>
+        <rect fill="rgba(16,185,129,0.1)" stroke="#059669" stroke-width="1" y="45" width="160" height="24" rx="4" />
+        <text font-family="sans-serif" font-size="10" font-weight="700" fill="#10b981" x="80" y="61" text-anchor="middle">REED-SOLOMON VERIFIED</text>
+      </g>
+    </g>
+  </g>
+</svg>

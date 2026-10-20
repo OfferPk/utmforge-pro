@@ -1,0 +1,35 @@
+{
+  "campaignName": "Fall Nordic Apparel Influencer Rollout",
+  "brandName": "Nordic Peak",
+  "defaultBaseUrl": "https://nordicpeak.store/collections/autumn-outerwear",
+  "links": [
+    {
+      "channel": "TikTok Creator Spark Ads",
+      "baseUrl": "https://nordicpeak.store/collections/autumn-outerwear",
+      "params": {
+        "utm_source": "tiktok",
+        "utm_medium": "influencer-paid",
+        "utm_campaign": "autumn-outerwear-drop",
+        "utm_term": "outdoor-lifestyle",
+        "utm_content": "spark-video-unboxing"
+      },
+      "customParams": {
+        "discount": "FALL25",
+        "creator": "elena_outdoors"
+      }
+    },
+    {
+      "channel": "Instagram Story Swipe-Up",
+      "baseUrl": "https://nordicpeak.store/products/arctic-parka",
+      "params": {
+        "utm_source": "instagram",
+        "utm_medium": "story-link",
+        "utm_campaign": "autumn-outerwear-drop",
+        "utm_content": "story-sticker-poll"
+      },
+      "customParams": {
+        "discount": "STORY20"
+      }
+    }
+  ]
+}
